@@ -7,11 +7,16 @@ There were several issues before GrovePi+ worked with Raspberry 4. They were res
 Some sensors were not working becasue video drivers etc block some interfaces and gpio pins. Thus:
 
   - disable SPI 
-'dtparam=spi=off'
- - comment the following lines if they exist to disable video driver and gpio8 use:
-'#dtoverlay=vc4-fkms-v3d'
-'#dtoverlay=vc4-fkms-v3d'
-'#gpio=8=op,dh'
+
+`dtparam=spi=off`
+
+- comment the following lines if they exist to disable video driver and gpio8 use:
+
+`#dtoverlay=vc4-fkms-v3d`
+
+`#dtoverlay=vc4-fkms-v3d`
+
+`#gpio=8=op,dh`
 
 2. Most problems happened after dist-upgrade or upgrading the system sudo apt-get upgrade
 
