@@ -20,7 +20,8 @@ or GrovePi+ firmware update gave the following error after
 sudo bash firmware_update.sh
 
 gpio/direction: No such file or directory
-ardude done. Thank you.avrdude: AVR device not responding
+
+ardude done. Thank you.
 
 Thus, perhaps one way is to not upgrade the system. Otherwise the following solutions work.
 
