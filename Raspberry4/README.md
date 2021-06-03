@@ -18,11 +18,9 @@ Some sensors were not working becasue video drivers etc block some interfaces an
 
 `#gpio=8=op,dh`
 
-2. Most problems happened after dist-upgrade or upgrading the system sudo apt-get upgrade
+2. Most problems happened after dist-upgrade or upgrading the system with sudo apt-get upgrade.
 
-or GrovePi+ firmware update gave the following error after 
-
-sudo bash firmware_update.sh
+GrovePi+ firmware update started giving the following error after sudo bash firmware_update.sh:
 
 gpio/direction: No such file or directory
 
