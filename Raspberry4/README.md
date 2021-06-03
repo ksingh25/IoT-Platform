@@ -10,7 +10,7 @@ Some sensors were not working becasue video drivers etc block some interfaces an
 
 `dtparam=spi=off`
 
-- comment the following lines if they exist to disable video driver and gpio8 use:
+- comment the following lines if they exist to disable video driver (it was present 2 times in the file) and gpio8 use:
 
 `#dtoverlay=vc4-fkms-v3d`
 
